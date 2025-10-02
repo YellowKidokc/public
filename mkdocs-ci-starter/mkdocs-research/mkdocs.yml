@@ -1,0 +1,17 @@
+site_name: "THEOPHYSICS — Research"
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+extra:
+  generator: false
